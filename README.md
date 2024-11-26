@@ -85,7 +85,7 @@ The model training process leverages advanced optimization techniques to ensure 
    - Gradients are clipped (`grad_clip = 0.1`) to prevent instability caused by exploding gradients in deep networks.
 
 5. **Epochs**:
-   - The model is trained for `8 epochs`, iterating over the entire training dataset.
+   - The model is trained for `25 epochs`, iterating over the entire training dataset on a Nvidia A100 GPU.
 
 ---
 
